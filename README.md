@@ -1,2 +1,2 @@
 # nguyenlihedh  
- khái niệm hệ điều hành
+1.khái niệm hệ điều hành
