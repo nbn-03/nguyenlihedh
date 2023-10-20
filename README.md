@@ -6,7 +6,7 @@
 5. caching - kỹ thuật tăng tốc xử lí của hệ thống. bằng cách lưu trữ dữ liệu hàng ngày vào bộ nhớ cache, để giảm thời gian truy cập dữ liệu từ bộ nhớ chậm hơn như ổ cứng hoặc mạng,... chú ý với dữ liệu chỉ được truy cập và sử dụng 1 lần tốc độ dùng caching sẽ chậm hơn tốc độ không dùng caching
 6. hệ điều hành có chế độ kép (dual-mode) để bảo vệ tài nguyên hệ thống
 7. ![image](https://github.com/nbn-03/nguyenlihedh/assets/98254107/0296cc84-172b-48f1-9c32-621edeb167d6)
-8. chú ý: máy tính  vẫn có thể hoạt động nếu không có ổ cứng  
+8. chú ý: máy tính  vẫn có thể hoạt động nếu không có ổ cứng (các thiết bị I/O) và phải có CPU và Memory  
 9. khái niệm hệ điều hành: là một chương trình (mã nguồn và dữ liệu - các tham số hệ thống) đã được cài đặt sẵn có chức năng thỏa mãn tối đa yêu cầu của người dùng. là chương trình trung gian giao tiếp giữa phần cứng và người sử dụng. user sẽ giao tiếp bằng 2 cách: giao tiếp dòng lệnh, giao tiếp biểu tượng.  
 10. khái niệm về tiến trình là một chương trình đang xử kí (hoạt đông và thực hiện), sở hữu một con trỏ lệnh (một thanh ghi (register) trong bộ xử lý của máy tính, nhiệm vụ chính của nó là lưu trữ địa chỉ của lệnh hiện tại mà bộ xử lý đang thực hiện), tập hợp các thanh ghi và các biến
 11. phân biệt tiến trình và chương trình: chương trình là một thực thể thụ động chứa lệnh và dữ liệu để tiến hành 1 tác vụ(công việc). khi thực hiện các lệnh chương trình chuyển thành tiến trình. một chương trình có thể có nhiều tiến trình; tiến trình là một thực thể hoạt động
