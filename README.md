@@ -12,7 +12,7 @@
 11. phân biệt tiến trình và chương trình: chương trình là một thực thể thụ động chứa lệnh và dữ liệu để tiến hành 1 tác vụ(công việc). khi thực hiện các lệnh chương trình chuyển thành tiến trình. một chương trình có thể có nhiều tiến trình; tiến trình là một thực thể hoạt động
 12. phân loại hệ điều hành: đơn chương trình; đa chương trình; thời gian thực; song song và phân tán
 13. hệ điều hành đơn chương trình: toàn bộ hệ thống máy tính phục vụ 1 chương trình từ lúc bắt đầu khi chương trình đưa và bộ nhớ đến khi kết thúc (nó chiếm toàn bộ tài nguyên nên không thể đưa chương trình khác vào)
-14. hệ điều hành đa chương trình: tại một thời điểm có nhiều chương trình có mặt đồng thời trong bộ nhớ và đều có nhu cầu được phân phối bộ nhớ và CPU. gồm 2 loại: hđh hoạt động theo lô và hđh chia sẻ thời gian
+14. hệ điều hành đa chương trình: tại một thời điểm có nhiều chương trình có mặt đồng thời trong bộ nhớ (nhưng CPU chỉ chạy 1 chương trình / 1 lần) và đều có nhu cầu được phân phối bộ nhớ và CPU. gồm 2 loại: hđh hoạt động theo lô và hđh chia sẻ thời gian
 15. hệ điều hành thời gian thực: đảm bảo giải quyết tiến trình không muộn hơn thời gian xác định được gọi là deadtime. nếu muộn hơn tiến trình không còn ý nghĩa
 16. hệ điều hành song song:  phối hợp nhiều bộ xử lí để nhằm giải quyết một vấn đề cho nhanh nhất
 17. hệ điều hành phân tán: mỗi bộ xử lí nói chung có chương trình làm việc riêng
