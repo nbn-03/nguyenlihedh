@@ -28,6 +28,6 @@
 27. ![image](https://github.com/nbn-03/nguyenlihedh/assets/98254107/e09f3d5c-e8c6-40b7-a06c-b50c155e8a01)
 28. khối điều khiển tiến trình process control block (PCB). khái niệm là: 1 vùng nhớ lưu trữ các thông tin mô tả cho tiến trình, mỗi tiến trình có 1 PCB. cấu trúc của PCB: 1.định danh tiến trình <phân biệt với các tiến trình khác> 2.mô tả trạng thái hiện tại của tiến trình 3.ngữ cảnh tiến trình <mô tả các tài nguyên có liên quan đến tiến trình> 4.thông tin giao tiếp <phản ánh mối quan hệ giữa các tiến trình> 5.thông tin thống kê <những thông tin về hoạt động cảu tiến trình>
 29. các bước CPU chuyển từ tiến trình P0 sang P1: lưu trạng thái P0 vào PCB0; nạp trạng thái P1 từ PCB1 vào CPU; thực thi P1; lưu trạng thái P1 vào PCB1; nạp trạng thái P0 từ PCB0 vào CPU; tiếp tục thực thi P0
-30. lập lịch (điều phối) tiến trình có nguyên tắc chung: chọn 1 tiến trình trong hàng đợi, ở trạng thái ready có độ ưu tiên cao nhất. các yếu tố liên quan đến độ ưu tiên: thời điểm tạo tiến trình, thời gian phục vụ. hệ điều hành sử dụng 2 loại danh sách để điều phối các tiến trình là ready list và waiting list.
+30. lập lịch (điều phối) tiến trình có mục đích: tối đa hóa sử dụng CPU; có nguyên tắc chung: chọn 1 tiến trình trong hàng đợi, ở trạng thái ready có độ ưu tiên cao nhất. các yếu tố liên quan đến độ ưu tiên: thời điểm tạo tiến trình, thời gian phục vụ. hệ điều hành sử dụng 2 loại danh sách để điều phối các tiến trình là ready list và waiting list.
 31. các loại lập lịch: dài hạn; trung hạn; ngắn hạn
 32. 
